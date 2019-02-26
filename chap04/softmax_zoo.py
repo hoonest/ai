@@ -13,6 +13,7 @@ x_test = xy[-5:, :-1]
 y_test = xy[-5:, [-1]]
 
 print(x_data.shape, y_data.shape)
+print(x_data[0:2])
 
 '''
 (101, 16) (101, 1)
